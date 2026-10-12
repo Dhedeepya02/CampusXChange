@@ -1,0 +1,35 @@
+# ── Node / Frontend ──────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── Python / Backend ─────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/routes/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Environment / secrets ────────────────────────
+.env
+backend/.env
+!backend/.env.example
+
+# ── Uploaded images (local dev) ──────────────────
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# ── IDEs ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
